@@ -9,6 +9,7 @@ import {
   Selection,
   OddEven,
   Has,
+  FirstLineAndFirstLetter,
 } from "@/components";
 import CenterContainer from "@/components/utils/CenterContainer";
 
@@ -16,6 +17,10 @@ const page = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center">Core Concepts</h1>
+      <CenterContainer
+        title="First Letter And First Line Functionality"
+        children={<FirstLineAndFirstLetter />}
+      />
       <CenterContainer title="Has Functionality" children={<Has />} />
       <CenterContainer
         title="Odd And Even Functionality"

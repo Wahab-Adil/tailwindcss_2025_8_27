@@ -7,6 +7,7 @@ import Placeholder from "@/components/core/placeholder";
 import Selection from "@/components/core/selection";
 import OddEven from "@/components/core/odd&Even";
 import Has from "@/components/core/has";
+import FirstLineAndFirstLetter from "@/components/core/firstLineAndFirstLetter";
 
 export {
   Hover,
@@ -18,4 +19,5 @@ export {
   Selection,
   OddEven,
   Has,
+  FirstLineAndFirstLetter,
 };
