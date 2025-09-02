@@ -17,6 +17,22 @@ export default function Home() {
           </div>
         }
       />
+
+      <CenterContainer
+        children={
+          <div className="text-center my-3">
+            <h1 className="text-4xl text-blue-500 text-bold ">
+              Grid Layout Concepts
+            </h1>
+            <Link
+              href="grid"
+              className="inline-block px-6 py-2 bg-blue-200 text-black text-bold font-semibold rounded hover:bg-blue-300 transition duration-300 w-[150px] h-[40px] text-center"
+            >
+              Grid Layout
+            </Link>
+          </div>
+        }
+      />
     </div>
   );
 }
