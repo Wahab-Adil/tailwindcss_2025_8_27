@@ -41,8 +41,8 @@ export default function Home() {
               Transition & Animations Concepts
             </h1>
             <Link
-              href="transition"
-              className="inline-block px-6 py-2 bg-blue-200 text-black text-bold font-semibold rounded hover:bg-blue-300 transition duration-300 w-[150px] h-[40px] text-center"
+              href="transitions"
+              className="inline-block px-12 py-2 bg-blue-200 text-black text-bold font-semibold rounded hover:bg-blue-300 transition duration-300 w-[150px] h-[40px] text-center"
             >
               Transition & Animations
             </Link>
